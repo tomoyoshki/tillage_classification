@@ -8,6 +8,8 @@ Author: Tommy Kimura
 
 This is the Tillage Classification project that loads field images, classfies an image to one of the four classes – Grass, High Tillage, Low Tillage, and No Tillage, and then conduct analysis. This project belongs to National Center for Supercomputing Application, as a part of Dr.Kaiyu’s study. 
 
+Some directories and files are too big in size to be uploaded to GitHub, therefore, I am storing them in using [Box](). This contains `StreetviewImages`, `StreetviewBoundaries`, and some previous models. 
+
 ### Directory
 
 ```
@@ -44,6 +46,7 @@ tillage_classificaion
 This part should create the new directory with the name specified by the user and contains train, validation, and test directories for each type of the crop. 
 
 ```
+tillage_classificaion
 ├── USER_SPECIFIED_image
 	├── corn_dataset
 		├── train
@@ -96,6 +99,3 @@ We have also conducted experiments to discard images with confidence below a cer
 - F1 Macro scores
 - Recall
 - Supports
-
-
-
