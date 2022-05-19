@@ -2,13 +2,11 @@
 
 Author: Tommy Kimura
 
-[TOC]
-
 ## Introduction
 
 This is the Tillage Classification project that loads field images, classfies an image to one of the four classes – Grass, High Tillage, Low Tillage, and No Tillage, and then conduct analysis. This project belongs to National Center for Supercomputing Application, as a part of Dr.Kaiyu’s study. 
 
-Some directories and files are too big in size to be uploaded to GitHub, therefore, I am storing them in using [Box](). This contains `StreetviewImages`, `StreetviewBoundaries`, and some previous models. 
+Some directories and files are too big in size to be uploaded to GitHub, therefore, I am storing them in using [Box](https://uofi.box.com/s/wnqj881dcv2jgqko0sjnw80ke98jrhxl). This contains `StreetviewImages`, `StreetviewBoundaries`, and some previous models. 
 
 ### Directory
 
