@@ -8,6 +8,23 @@ This is the Tillage Classification project that loads field images, classfies an
 
 Some directories and files are too big in size to be uploaded to GitHub, therefore, I am storing them in using [Box](https://uofi.box.com/s/wnqj881dcv2jgqko0sjnw80ke98jrhxl). This contains `StreetviewImages`, `StreetviewBoundaries`, and some previous models. 
 
+Previous folders have different sub-directories indicating the latest experiements. Three most siginificant experiments are described below and you can find the corresponding model weights under the directories. 
+
+- Large drop: Using 576 x 768 full image size with anti-aliasing
+  - Also conduct analysis on dropping images with confidence less than the threshold
+- March models: Using 256 x 256 geotagged image with non tillage field part completely black pixels
+  - Also tried out weight decay and blacked out or half lower alpha value for non tillage field component. 
+- Feb models:  
+  - Conducting basic experiments with full size images and geotagged images.
+
+**To install dependencies**
+
+```
+pip3 install -r requirements.txt
+```
+
+
+
 ### Directory
 
 ```
@@ -22,6 +39,7 @@ tillage_classificaion
 ├── corn_model.ipynb
 ├── load.ipynb
 ├── process.ipynb
+├── requirements.txt
 └── soybean_model.ipynb
 ```
 
